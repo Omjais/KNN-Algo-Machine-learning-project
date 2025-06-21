@@ -5,11 +5,11 @@ This repository contains a Jupyter notebook implementing a K-Nearest Neighbors (
 Copy
 Edit
 📦 KNN_Classification/
- ┣ 📄 KNN_Classification.ipynb
+ ┣ 📄 KNN_Classifiacton(Irisflower).ipynb
  ┗ 📄 README.md
 📈 Overview
 Dataset: The notebook uses data from
-https://raw.githubusercontent.com/arib168/data/main/Underweight-knn.csv
+https://www.kaggle.com/datasets/saurabh00007/iriscsv
 
 Features: The first two columns are used as predictors (features).
 
@@ -18,7 +18,7 @@ Target: The last column represents the class label (underweight status).
 🚀 Steps Performed
 ✅ Data loading using Pandas
 ✅ Feature extraction (x) and target extraction (y)
-✅ Model creation with KNeighborsClassifier (n_neighbors=3)
+✅ Model creation with KNeighborsClassifier (n_neighbors=15)
 ✅ Model training
 ✅ Prediction on training data
 ✅ Evaluation using accuracy score and confusion matrix
@@ -48,7 +48,7 @@ cd your-repo-name
 bash
 Copy
 Edit
-jupyter notebook KNN_Classification.ipynb
+jupyter notebook KNN_Classifiacton(Irisflower).ipynb
 📊 Results
 Accuracy: The model computes the accuracy on the training data.
 
